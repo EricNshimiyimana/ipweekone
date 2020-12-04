@@ -1,0 +1,21 @@
+#container { 
+    height: 100%;
+    width: 100%;
+    border: 2px solid #000;
+}
+#img {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#names {
+    font-size: 10px;
+    margin-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#about h1 {
+margin-top: -250px;
+margin-left: 400px;
+}
+#about p {
+    margin-left: 400px;
+    }
