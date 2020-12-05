@@ -1,21 +1,90 @@
-#container { 
-    height: 100%;
+.container { 
+    height: auto;
     width: 100%;
     border: 2px solid #000;
 }
-#img {
-    margin-left: 10px;
-    margin-top: 10px;
-}
-#names {
+.names {
     font-size: 10px;
     margin-left: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-#about h1 {
-margin-top: -250px;
-margin-left: 400px;
+.column{
+    float: left;
+    height: auto;
 }
-#about p {
-    margin-left: 400px;
-    }
+.right{
+    width: 70%;
+}
+
+.left{
+    width: 30%;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* End of section one */
+.column2{
+    float: left;
+    height: auto;
+}
+.right2{
+    width: 33%;
+}
+.center{
+    width: 34%;
+}
+.left2{
+    width: 33%;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.left2 h3{
+    margin-left: 25px;
+}
+.center h3{
+    margin-left: 25px;
+}
+.right2 h3{
+    margin-left: 0px;
+}
+/* End of section two */
+.column3{
+    float: left;
+    height: auto;
+}
+.right3{
+    width: 33%;
+}
+.center{
+    width: 34%;
+}
+.left3{
+    width: 33%;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.left3 h3{
+    margin-left: 25px;
+}
+.center h3{
+    margin-left: 25px;
+}
+.right3 h3{
+    margin-left: 25px;
+}
+.footer{
+    width: 98.5%;
+    color: #FFF;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+    background-color: darkslategray;
+}
