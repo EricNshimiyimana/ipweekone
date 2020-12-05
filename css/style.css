@@ -1,7 +1,7 @@
 .container { 
     height: auto;
     width: 100%;
-    border: 2px solid double #000;
+    border: 2px double #000;
 }
 .names {
     font-size: 10px;
